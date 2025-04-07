@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessible={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#E9EAEC",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "margin": "5%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#454545",
+              "fontSize": 24,
+            },
+            {
+              "fontSize": 32,
+              "marginBottom": 4,
+            },
+          ]
+        }
+      >
+        Welcome to GradJournal!
+      </Text>
+      <Text
+        style={
+          {
+            "fontSize": 15,
+            "textAlign": "center",
+          }
+        }
+      >
+        GradJournal is a note taking app designed to help students with reflecting on their meta-skills development.
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "paddingVertical": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#454545",
+            "fontSize": 24,
+          }
+        }
+      >
+        Sign up to start taking notes!
+      </Text>
+    </View>
+  </View>
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Name..."
+    placeholderTextColor="black"
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "gray",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "height": 50,
+        "marginVertical": 10,
+        "padding": 10,
+        "width": "80%",
+      }
+    }
+  />
+  <TextInput
+    onChangeText={[Function]}
+    placeholder="Email address..."
+    placeholderTextColor="black"
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "gray",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "height": 50,
+        "marginVertical": 10,
+        "padding": 10,
+        "width": "80%",
+      }
+    }
+  />
+  <TextInput
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    placeholder="Password..."
+    placeholderTextColor="black"
+    secureTextEntry={true}
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "gray",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "height": 50,
+        "marginVertical": 10,
+        "padding": 10,
+        "width": "80%",
+      }
+    }
+  />
+  <TextInput
+    onChangeText={[Function]}
+    onFocus={[Function]}
+    placeholder="Confirm Password..."
+    placeholderTextColor="black"
+    secureTextEntry={true}
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "gray",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "height": 50,
+        "marginVertical": 10,
+        "padding": 10,
+        "width": "80%",
+      }
+    }
+  />
+  <View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#8ABDE9",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginHorizontal": 75,
+          "marginVertical": 40,
+          "opacity": 1,
+          "paddingHorizontal": 28,
+          "paddingVertical": 24,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontSize": 16,
+              "fontWeight": "500",
+              "textAlign": "center",
+            },
+            {},
+          ]
+        }
+      >
+        Sign up
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#0000FF",
+          "fontSize": 16,
+          "marginTop": 20,
+        }
+      }
+    >
+      Already have an account? Login here!
+    </Text>
+  </View>
+</View>
+`;
